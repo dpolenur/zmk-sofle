@@ -87,9 +87,9 @@ layers:
   - '&mkp MB4'
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - PG UP
-  - Sft+KP 7
-  - KP 8
-  - KP 9
+  - HOME
+  - $$mdi:arrow-up-bold$$
+  - PgUp
   - KP PLUS
   - {t: \, s: '|'}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -100,9 +100,9 @@ layers:
   - '&mkp MB5'
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - PG DN
-  - KP 4
-  - KP 5
-  - KP 6
+  - $$mdi:arrow-left-bold$$
+  - $$mdi:arrow-down-bold$$
+  - $$mdi:arrow-right-bold$$
   - _
   - {t: '=', s: +}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -113,9 +113,9 @@ layers:
   - RGB SPI
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - RGB BRI
-  - KP 1
+  - END
   - KP 2
-  - KP 3
+  - PgDn
   - F12
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:volume-off$$
@@ -127,9 +127,9 @@ layers:
   - $$mdi:mouse-right-click-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: KP 0, h: '$$mdi:apple-keyboard-shift$$'}
-  - KP 0
-  - KP DOT
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   '2':
   - '~'
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
