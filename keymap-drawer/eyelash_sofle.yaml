@@ -73,11 +73,11 @@ layers:
   - F4
   - F5
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
-  - CALC
-  - KP NUMLOCK
-  - KP DIVIDE
-  - KP MULTIPLY
-  - KP MINUS
+  - F6
+  - F7
+  - F8
+  - F9
+  - F10
   - $$mdi:backspace-reverse-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '`', s: '~'}
@@ -90,8 +90,8 @@ layers:
   - HOME
   - $$mdi:arrow-up-bold$$
   - PgUp
-  - KP PLUS
-  - {t: \, s: '|'}
+  - F11
+  - F12
   - {t: '$$mdi:transfer$$', type: trans}
   - '~'
   - {t: '$$mdi:transfer$$', type: trans}
