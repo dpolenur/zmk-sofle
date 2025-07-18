@@ -90,8 +90,8 @@ layers:
   - HOME
   - $$mdi:arrow-up-bold$$
   - PgUp
-  - F11
-  - F12
+  - KP MINUS
+  - KP PLUS
   - {t: '$$mdi:transfer$$', type: trans}
   - '~'
   - {t: '$$mdi:transfer$$', type: trans}
@@ -112,11 +112,11 @@ layers:
   - '}'
   - RGB SPI
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
-  - RGB BRI
+  - PREVIOUS
   - END
-  - KP 2
+  - PLAY PAUSE
   - PgDn
-  - F12
+  - $$mdi:skip-next$$
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:volume-off$$
   - {t: '$$mdi:transfer$$', type: trans}
