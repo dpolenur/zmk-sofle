@@ -47,7 +47,7 @@
 &kp TAB     &kp Q         &kp W         &kp E      &kp R      &kp T     &mmv MOVE_DOWN   &kp Y   &kp U      &kp I      &kp O     &kp P          &kp BSLH
 &kp CAPS    &kp A         &kp S         &kp D      &kp F      &kp G     &mmv MOVE_LEFT   &kp H   &kp J      &kp K      &kp L     &kp SEMI       &kp APOS
 &kp LCTRL   &kp Z         &kp X         &kp C      &kp V      &kp B     &mmv MOVE_RIGHT  &kp N   &kp M      &kp COMMA  &kp DOT   &kp FSLH       &kp RCTRL
-&kp C_MUTE  &kp LEFT_ALT  &kp LEFT_GUI  &kp LSHFT  &kp SPACE  &mo 1     &mkp LCLK        &mo 3   &kp ENTER  &kp RSHFT  &kp RGUI  &kp RIGHT_ALT
+&kp C_MUTE  &kp LEFT_ALT  &kp LEFT_GUI  &kp LSHFT  &kp SPACE  &mo 1     &mkp LCLK        &mo 2   &kp ENTER  &kp RSHFT  &kp RGUI  &kp RIGHT_ALT
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
@@ -68,7 +68,7 @@
         };
 
         nav {
-            display-name = "layer1";
+            display-name = "layer2";
             bindings = <
 &kp GRAVE   &kp F1           &kp F2          &kp F3            &kp F4                 &kp F5             &mmv MOVE_UP     &kp F6          &kp F7    &kp F8            &kp F9         &kp F10       &kp BACKSPACE
 &trans      &kp F11          &kp F12         &kp LEFT_BRACKET  &kp RIGHT_BRACKET      &kp GRAVE          &mmv MOVE_DOWN   &kp DELETE      &kp HOME  &kp UP_ARROW      &kp PAGE_UP    &kp KP_MINUS  &kp KP_PLUS
