@@ -1,0 +1,16 @@
+# SPDX-License-Identifier: MIT
+
+config SOFLE_LOCK_STATUS
+    bool "Synchronize Sofle host lock indicators"
+    depends on ZMK_SPLIT && ZMK_BLE
+    select ZMK_HID_INDICATORS
+    select ZMK_SPLIT_PERIPHERAL_HID_INDICATORS
+    select ZMK_SPLIT_RELAY_EVENT
+
+config SOFLE_RIGHT_LOCK_DISPLAY
+    bool "Show Caps Lock and Num Lock on the right nice!view"
+    depends on SOFLE_LOCK_STATUS && ZMK_DISPLAY && SHIELD_NICE_VIEW
+    depends on !ZMK_SPLIT_ROLE_CENTRAL
+    select LV_USE_CANVAS
+    select LV_USE_IMG
+    select LV_FONT_MONTSERRAT_16

@@ -6,5 +6,6 @@ include:
     cmake-args: -DCONFIG_ZMK_STUDIO=y -DCONFIG_ZMK_STUDIO_LOCKING=n
   - board: nice_nano_v2
     shield: eyelash_sofle_right nice_view
+    cmake-args: -DCONFIG_SOFLE_RIGHT_LOCK_DISPLAY=y -DCONFIG_NICE_VIEW_WIDGET_STATUS=n
   - board: nice_nano_v2
     shield: settings_reset
