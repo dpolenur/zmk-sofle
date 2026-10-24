@@ -7,7 +7,9 @@
 #include <zmk/events/hid_indicators_changed.h>
 #include "sofle_lock_status.h"
 
-#define LOCK_REQUEST "sofle_locks"
+#define LOCK_REQUEST "slk"
+BUILD_ASSERT(sizeof(LOCK_REQUEST) <= CONFIG_ZMK_SPLIT_RELAY_EVENT_TYPE_NAME_LEN,
+             "Lock request identifier must fit the split relay field");
 
 #if IS_ENABLED(CONFIG_ZMK_SPLIT_ROLE_CENTRAL)
 
